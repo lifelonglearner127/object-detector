@@ -4,8 +4,8 @@ Object detection framework using Computer Vision and Machine Learning. I used HO
 - [Concepts](#concepts)
 - [Tips on training object detector](#tips-on-training-object-detector)
 - [Examples](#examples)
-    - [Libraries](#libraries)
-    - [Project Structure](#project-structure)
+    - [Stop sign detector](stop_sign_detector/README.md)
+    - Car sid detector
 - [FAQ](#faq)
 
 ## Concepts
@@ -30,7 +30,10 @@ Object detection framework using Computer Vision and Machine Learning. I used HO
 - Run experiments and log your results
 
 ## Examples
-This project contains `side-car` detector as an example. You can easily extend this project for your own custom object by modifying configuration file.
+1. Stop sign detector using `dlib` train_simple_object_detector
+2. Side car detector
+
+    You can easily extend this project for your own custom object by modifying configuration file.
 
 ### Libraries
 - OpenCV
