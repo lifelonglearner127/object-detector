@@ -20,7 +20,7 @@ conf = Conf(args["conf"])
 (data, labels) = dataset.load_dataset(conf["features_path"], "features")
 
 if args["hard_negatives"] > 0:
-    (hard_data, hard_labels) = dataset.load_dataset(conf["features_path"], "hard_features")
+    (hard_data, hard_labels) = dataset.load_dataset(conf["features_path"], "hard_negatives")
     data = np.vstack([data, hard_data])
     labels = np.hstack([labels, hard_labels])
 
