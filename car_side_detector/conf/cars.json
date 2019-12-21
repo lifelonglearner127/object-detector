@@ -15,5 +15,11 @@
 	"cells_per_block": [2, 2],
     "normalize": true,
     
-	"window_dim": [96, 32]
+    "window_dim": [96, 32],
+    "window_step": 4,
+    "pyramid_scale": 1.5,
+    "min_probability": 0.7,
+    
+    "classifier_path": "output/cars/model.cpickle",
+    "C": 0.01
 }

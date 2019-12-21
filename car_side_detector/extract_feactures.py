@@ -9,9 +9,9 @@ from imutils import paths
 from scipy import io
 from sklearn.feature_extraction.image import extract_patches_2d
 
-from object_detection.utils import Conf, dataset
-from object_detection.descriptors import HOG
 from object_detection.core import helpers
+from object_detection.descriptors import HOG
+from object_detection.utils import Conf, dataset
 
 
 ap = argparse.ArgumentParser()
