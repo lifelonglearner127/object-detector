@@ -5,7 +5,8 @@ Object detection framework using Computer Vision and Machine Learning. I used HO
 - [Tips on training object detector](#tips-on-training-object-detector)
 - [Examples](#examples)
     - [Stop sign detector](stop_sign_detector/README.md)
-    - Car sid detector
+    - [Car side detector](car_sid_detector/README.md)
+    - [Face detector](face_detector/README.md)
 - [FAQ](#faq)
 
 ## Concepts
