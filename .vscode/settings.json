@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/home/dev/.virtualenvs/py3cv4/bin/python",
+    "python.pythonPath": "/home/dev/.virtualenvs/object-detector/bin/python",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "editor.rulers": [120]

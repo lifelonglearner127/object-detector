@@ -47,7 +47,7 @@ for (i, positive_sample_path) in enumerate(positive_sample_paths):
     p = f"{conf['image_annotations']}/annotation_{image_id}.mat"
     bb = io.loadmat(p)["box_coord"][0]
     roi = helpers.crop_ct101_bb(image, bb, padding=conf["offset"],
-                                dstSize=tuple(conf["window_dim"]))
+                                dst_size=tuple(conf["window_dim"]))
     rois = (roi, cv2.flip(roi, 1)) if conf["use_flip"] else (roi, )
 
     for roi in rois:

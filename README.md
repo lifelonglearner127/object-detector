@@ -5,8 +5,8 @@ Object detection framework using Computer Vision and Machine Learning. I used HO
 - [Tips on training object detector](#tips-on-training-object-detector)
 - [Examples](#examples)
     - [Stop sign detector](stop_sign_detector/README.md)
-    - [Car side detector](car_sid_detector/README.md)
     - [Face detector](face_detector/README.md)
+    - [Car side detector](car_side_detector/README.md)
 - [FAQ](#faq)
 
 ## Concepts
@@ -26,13 +26,14 @@ Object detection framework using Computer Vision and Machine Learning. I used HO
 ## Tips on training object detector
 - Take special care labeling your data
 - Leverage parallel processing
-- Keep in minde the image pyramid and sliding window tradeoff
+- Keep in mind the image pyramid and sliding window tradeoff
 - Tune descriptor hyperparameters
 - Run experiments and log your results
 
 ## Examples
 1. Stop sign detector using `dlib` train_simple_object_detector
-2. Side car detector
+2. Face detector using `dlib` train_simple_object_detector
+3. Side car detector
 
     You can easily extend this project for your own custom object by modifying configuration file.
 

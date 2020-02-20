@@ -11,7 +11,7 @@ ap.add_argument("-d", "--detector", required=True,
 ap.add_argument("-t", "--testing", required=True,
                 help="Path to directory of testing images")
 args = vars(ap.parse_args())
- 
+
 detector = dlib.simple_object_detector(args["detector"])
 
 for testing_path in paths.list_images(args["testing"]):
