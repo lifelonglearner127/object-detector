@@ -12,7 +12,7 @@ This object detector is trained on CALTECH101 dataset.
     ```
 - Non-maxima suppression
     ```
-    python test_model_no_nms.py --conf conf/cars.json --image datasets/caltech101/101_ObjectCategories/car_side/image_0016.jpg
+    python test_model.py --conf conf/cars.json --image datasets/caltech101/101_ObjectCategories/car_side/image_0016.jpg
     ```
 - Negative minig
     ```
